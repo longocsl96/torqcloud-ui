@@ -1,0 +1,80 @@
+{
+  "name": "torqcloud-lib-1",
+  "version": "0.1.14",
+  "main": "dist/main.js",
+  "files": [
+    "dist/main.js",
+    "package.json",
+    "index.d.ts",
+    "README.md"
+  ],
+  "dependencies": {
+    "@emotion/cache": "^11.4.0",
+    "@emotion/react": "^11.4.0",
+    "@emotion/styled": "^11.3.0",
+    "@material-ui/core": "5.0.0-alpha.34",
+    "@material-ui/icons": "5.0.0-alpha.34",
+    "@material-ui/lab": "5.0.0-alpha.34",
+    "@material-ui/system": "5.0.0-alpha.34",
+    "lodash": "^4.17.21",
+    "firebase": "^8.6.8",
+    "formik": "^2.2.9",
+    "node-sass": "^7.0.3",
+    "redux": "^4.1.0",
+    "redux-devtools-extension": "^2.13.9",
+    "react-helmet-async": "^1.0.7",
+    "redux-thunk": "^2.3.0",
+    "react-scripts": "5.0.1",
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1",
+    "react-router": "^6.0.0-beta.0",
+    "react-router-dom": "^6.0.0-beta.0",
+    "react-perfect-scrollbar": "^1.5.8",
+    "web-vitals": "^2.1.4",
+    "date-fns": "^2.21.3",
+    "yup": "^0.32.9"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "build-lib": "npx webpack --config webpack.config.js",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "@babel/core": "^7.14.3",
+    "@babel/preset-env": "^7.14.2",
+    "@babel/preset-react": "^7.13.13",
+    "babel-loader": "^8.2.2",
+    "css-loader": "^5.2.5",
+    "html-webpack-plugin": "^5.3.1",
+    "node-sass": "^7.0.3",
+    "sass-loader": "^11.1.1",
+    "style-loader": "^2.0.0",
+    "url-loader": "^4.1.1",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "webpack": "^5.37.1",
+    "webpack-cli": "^3.3.12",
+    "webpack-dev-server": "^3.11.2",
+    "webpack-node-externals": "^3.0.0"
+  }
+}
